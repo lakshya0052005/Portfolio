@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Lakshya Giri - Software Engineer and Full-Stack Developer">
+    <title>Lakshya Giri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Animated Glass Cubes Background -->
+    <div class="animated-bg">
+        <ul class="glass-cubes">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">LG_</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions" style="display: flex; align-items: center; gap: 20px;">
+            <button id="theme-toggle" aria-label="Toggle Theme" style="background: none; border: none; color: var(--text-primary); font-size: 1.2rem; cursor: pointer; transition: var(--transition);">
+                <i class="fas fa-sun"></i>
+            </button>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content fade-in-up">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="gradient-text">Lakshya Giri</h1>
+                <h2 class="role">Software Engineer / Full-Stack Developer</h2>
+                <p class="summary">
+                    I build dynamic, scalable, and intelligent applications. Passionate about problem-solving and full-stack development.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    <a href="Finalized_CV.pdf" download class="btn secondary-btn" style="border-color: var(--accent-magenta); color: var(--accent-magenta)">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container fade-in-up delay-1">
+               <div class="hero-shape"></div>
+               <!-- Profile Image -->
+               <img src="profile.png" alt="Lakshya Giri" class="profile-img">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About <span class="gradient-text resume-title-underline">Me</span></h2>
+            
+            <div class="about-grid fade-in-up">
+                
+                <!-- Left Column -->
+                <div class="about-col-left">
+                    
+                    <!-- Quick Facts -->
+                    <div class="about-card glass-panel">
+                        <h3 class="about-card-title">Quick Facts</h3>
+                        <ul class="quick-facts-list">
+                            <li>
+                                <div class="fact-icon location-icon">📍</div>
+                                <div class="fact-detail">
+                                    <span class="fact-label">Location</span>
+                                    <span class="fact-value">Punjab, India</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fact-icon education-icon">🎓</div>
+                                <div class="fact-detail">
+                                    <span class="fact-label">Education</span>
+                                    <span class="fact-value">Pursuing B.Tech in Computer Science</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fact-icon experience-icon">💼</div>
+                                <div class="fact-detail">
+                                    <span class="fact-label">Experience</span>
+                                    <span class="fact-value">Fresher (Actively Building)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Hobbies -->
+                    <div class="about-card glass-panel delay-1">
+                        <h3 class="about-card-title">When I'm Not Coding</h3>
+                        <ul class="hobbies-list">
+                            <li>
+                                <div class="hobby-icon">🌐</div>
+                                <span>Surfing Web</span>
+                            </li>
+                            <li>
+                                <div class="hobby-icon">📚</div>
+                                <span>Reading</span>
+                            </li>
+                            <li>
+                                <div class="hobby-icon">🎵</div>
+                                <span>Music</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="about-col-right">
+                    
+                    <!-- Journey -->
+                    <div class="about-card glass-panel delay-1">
+                        <h3 class="about-card-title gradient-text-blue">My Journey</h3>
+                        <div class="about-text-content">
+                            <p>Hello! I'm <span class="highlight-purple" style="font-weight: 600;">Lakshya Giri</span>, a passionate developer with a deep fascination for transforming complex problems into elegant digital solutions.</p>
+                            
+                            <p>My journey in tech began with curious exploration and has evolved into a focused expertise in full-stack development. I specialize in crafting responsive, user-centered applications using modern technologies and robust backend architectures.</p>
+                            
+                            <p>What drives me is the intersection of technology and creativity—finding that perfect balance between functional code and intuitive design. I'm constantly expanding my skills through hands-on projects and keeping up with emerging technologies.</p>
+                        </div>
+                    </div>
+
+                    <!-- Approach -->
+                    <div class="about-card glass-panel delay-2">
+                        <h3 class="about-card-title gradient-text-blue">My Approach</h3>
+                        <div class="about-text-content">
+                            <p>I believe in creating technology that's not just functional but meaningful. Every line of code I write aims to solve real problems and enhance user experiences. I value clean architecture, collaborative development, and continuous learning as the foundations of great software.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+            <div class="skills-container">
+                
+                <div class="skill-category slide-in-left">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">C</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-category slide-in-up delay-1">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="tags">
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category slide-in-up delay-2">
+                    <h3><i class="fas fa-laptop-code"></i> Tools & Platforms</h3>
+                    <div class="tags">
+                        <span class="tag">React.js</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Oracle DB</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+
+                 <div class="skill-category slide-in-right delay-3">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Problem-Solving</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Critical Thinking</span>
+                        <span class="tag">Adaptability</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+             <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+             <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-panel fade-in-up">
+                    <div class="project-content">
+                        <span class="project-date">Feb 2025 - Mar 2025</span>
+                        <h3>Vaccine Management System</h3>
+                        <p class="project-subtitle">Web-Based Application</p>
+                        <ul class="project-bullets">
+                            <li>Developed a vaccine management system enabling user registration, login, and seamless appointment scheduling through an interactive interface.</li>
+                            <li>Built a full-stack application using HTML, CSS, JavaScript, PHP, and MySQL to handle data management and real-time validation.</li>
+                            <li>Implemented key features such as admin dashboard, vaccination records, and appointment tracking to improve system efficiency.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <a href="https://github.com/lakshya0052005/Vaccine-management-system" target="_blank" class="btn secondary-btn" style="padding: 8px 20px; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px;">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel fade-in-up delay-1">
+                    <div class="project-content">
+                        <span class="project-date">Nov 2025 – Dec 2025</span>
+                        <h3>Homework Submission & Grading System</h3>
+                        <p class="project-subtitle">Full-Stack Web Application</p>
+                        <ul class="project-bullets">
+                            <li>Streamlined digital assignment management using React.js and Node.js, improving workflow efficiency.</li>
+                            <li>Implemented role-based dashboards for students and teachers with secure workflows and progress tracking.</li>
+                            <li>Designed RESTful APIs and backend logic for handling assignments and grading efficiently.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Node.js</span><span>REST APIs</span>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <a href="https://github.com/lakshya0052005/Grading-System" target="_blank" class="btn secondary-btn" style="padding: 8px 20px; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px;">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+             </div>
+        </section>
+
+        <!-- Experience & Achievements Section -->
+        <section id="experience" class="section">
+             <h2 class="section-title">Experience & <span class="gradient-text">Achievements</span></h2>
+             
+             <div class="timeline-container">
+                 <!-- Training -->
+                 <div class="timeline-item slide-in-left">
+                     <div class="timeline-dot"></div>
+                     <div class="timeline-content glass-panel">
+                         <div class="content-with-cert">
+                             <div class="content-text">
+                                 <span class="timeline-date">Jun 2025 - Jul 2025</span>
+                                 <h3>C Programming Language Summer Training</h3>
+                                 <h4>CSE Path Shala</h4>
+                                 <p>Completed intensive training on core C concepts, gaining hands-on experience compiling and optimizing C programs through practical labs.</p>
+                             </div>
+                             <div class="certificate-container">
+                                 <a href="c-certificate.png" target="_blank" class="cert-link">
+                                     <img src="c-certificate.png" alt="C Programming Certificate" class="cert-img">
+                                     <div class="cert-overlay">
+                                         <i class="fas fa-expand"></i>
+                                         <span>View Certificate</span>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- NPTEL -->
+                 <div class="timeline-item slide-in-right delay-1">
+                     <div class="timeline-dot"></div>
+                     <div class="timeline-content glass-panel">
+                         <div class="content-with-cert">
+                             <div class="content-text">
+                                 <span class="timeline-date">Nov 2025</span>
+                                 <h3>Social Networks | NPTEL Certificate</h3>
+                                 <p>Mastered social network analysis (graph theory, diffusion models) and analyzed real-world network structures to understand influence propagation.</p>
+                             </div>
+                             <div class="certificate-container">
+                                 <a href="nptel-certificate.png" target="_blank" class="cert-link">
+                                     <img src="nptel-certificate.png" alt="NPTEL Certificate" class="cert-img">
+                                     <div class="cert-overlay">
+                                         <i class="fas fa-expand"></i>
+                                         <span>View Certificate</span>
+                                     </div>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- LeetCode -->
+                 <div class="timeline-item slide-in-left delay-2">
+                     <div class="timeline-dot"></div>
+                     <div class="timeline-content glass-panel">
+                         <span class="timeline-date">Jul 2024</span>
+                         <h3>DSA Problem Solver</h3>
+                         <p>Solved 100+ DSA problems across platforms like LeetCode and GeeksforGeeks, strengthening algorithmic thinking.</p>
+                     </div>
+                 </div>
+
+                 <!-- TryHackMe -->
+                 <div class="timeline-item slide-in-right delay-3">
+                     <div class="timeline-dot"></div>
+                     <div class="timeline-content glass-panel">
+                         <span class="timeline-date">Sep 2024</span>
+                         <h3>Top 10% Global Ranking | TryHackMe</h3>
+                         <p>Showcased elite practical skills in vulnerability assessment and cybersecurity.</p>
+                     </div>
+                 </div>
+
+                  <!-- Certifications List underneath -->
+                  <div class="certifications mt-8 fade-in-up delay-4">
+                      <h3>Other Certifications</h3>
+                      <ul class="cert-list">
+                          <li>
+                              <i class="fas fa-shield-alt"></i> Cyber Sec Symposium 2.0 | Cyber Security Conference
+                              <a href="cyber-certificate.png" target="_blank" class="resume-tag" style="text-decoration: none; padding: 4px 12px; font-size: 0.8rem; margin-left: 10px; display: inline-flex;">
+                                  <i class="fas fa-external-link-alt"></i> View
+                              </a>
+                              <span>(Feb 2024)</span>
+                          </li>
+                          <li>
+                              <i class="fas fa-cogs"></i> Computational Theory: Language Principle & Finite Automata Theory
+                              <a href="comp-theory-certificate.png" target="_blank" class="resume-tag" style="text-decoration: none; padding: 4px 12px; font-size: 0.8rem; margin-left: 10px; display: inline-flex;">
+                                  <i class="fas fa-external-link-alt"></i> View
+                              </a>
+                              <span>(Jul 2025)</span>
+                          </li>
+                      </ul>
+                  </div>
+             </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+            <div class="education-grid">
+                
+                <!-- B.Tech -->
+                <div class="education-card glass-panel fade-in-up">
+                    <div class="edu-header">
+                        <h3>Lovely Professional University</h3>
+                        <span class="location">Punjab, India</span>
+                    </div>
+                    <h4 class="degree">B.Tech - Computer Science and Engineering</h4>
+                    <div class="edu-details-row">
+                        <span class="timeline-date">Since Aug 2023</span>
+                        <span class="gpa highlight">CGPA: 7.8</span>
+                    </div>
+                </div>
+
+                <!-- 12th -->
+                <div class="education-card glass-panel fade-in-up delay-1">
+                    <div class="edu-header">
+                        <h3>Kendriya Vidyalaya</h3>
+                        <span class="location">Amritsar, Punjab</span>
+                    </div>
+                    <h4 class="degree">12th Standard - Science PCM</h4>
+                    <div class="edu-details-row">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <span class="gpa highlight">Result: 84.6%</span>
+                    </div>
+                </div>
+
+                <!-- 10th -->
+                <div class="education-card glass-panel fade-in-up delay-2">
+                    <div class="edu-header">
+                        <h3>Kendriya Vidyalaya</h3>
+                        <span class="location">Siliguri, West Bengal</span>
+                    </div>
+                    <h4 class="degree">10th Standard</h4>
+                    <div class="edu-details-row">
+                        <span class="timeline-date">2019 - 2020</span>
+                        <span class="gpa highlight">Result: 95.2%</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <h2 class="section-title">My <span class="gradient-text resume-title-underline">Resume</span></h2>
+            
+            <div class="resume-container fade-in-up">
+                
+                <div class="resume-contact-tags">
+                    <a href="mailto:girilakshya598@gmail.com" class="resume-tag"><i class="fas fa-envelope"></i> girilakshya598@gmail.com</a>
+                    <a href="tel:+917001226487" class="resume-tag"><i class="fas fa-phone-alt"></i> +91-7001226487</a>
+                    <a href="https://www.linkedin.com/in/lakshyagiri057/" target="_blank" class="resume-tag"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/lakshya0052005" target="_blank" class="resume-tag"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+
+                <div class="resume-tabs">
+                    <button class="resume-tab active" data-tab="education">Education</button>
+                    <button class="resume-tab" data-tab="skills">Skills</button>
+                    <button class="resume-tab" data-tab="projects">Projects</button>
+                    <button class="resume-tab" data-tab="extracurricular">Co-curricular activities</button>
+                    <button class="resume-tab" data-tab="certificates">Certificates</button>
+                </div>
+
+                <div class="resume-content-container">
+                    <!-- Education -->
+                    <div class="resume-tab-content active" id="tab-education">
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <span class="resume-category">DEGREE</span>
+                                    <h3 class="resume-title">Bachelor of Technology - Computer Science and Engineering</h3>
+                                    <p class="resume-subtitle">Lovely Professional University</p>
+                                </div>
+                                <span class="resume-date">Since Aug 2023</span>
+                            </div>
+                            <ul class="resume-bullets">
+                                <li>Current CGPA: 7.8</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="resume-tab-content" id="tab-skills">
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <h3 class="resume-title">Programming Languages</h3>
+                                </div>
+                            </div>
+                            <div class="resume-tech-tags">
+                                <span>Java</span><span>Python</span><span>C++</span><span>C</span><span>SQL</span><span>HTML5</span><span>CSS3</span>
+                            </div>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <h3 class="resume-title">Web Technologies</h3>
+                                </div>
+                            </div>
+                            <div class="resume-tech-tags">
+                                <span>Bootstrap</span><span>Tailwind CSS</span><span>HTML</span><span>CSS</span>
+                            </div>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <h3 class="resume-title">Tools & Platforms</h3>
+                                </div>
+                            </div>
+                            <div class="resume-tech-tags">
+                                <span>React.js</span><span>Angular</span><span>Node.js</span><span>Oracle DB</span><span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="resume-tab-content" id="tab-projects">
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <span class="resume-category">FULL-STACK WEB APP</span>
+                                    <h3 class="resume-title">Vaccine Management System</h3>
+                                    <p class="resume-subtitle">Web-Based Application</p>
+                                </div>
+                                <span class="resume-date">Feb 2025 - Mar 2025</span>
+                            </div>
+                            <ul class="resume-bullets">
+                                <li>Developed a vaccine management system enabling user registration, login, and seamless appointment scheduling through an interactive interface.</li>
+                                <li>Built a full-stack application using HTML, CSS, JavaScript, PHP, and MySQL to handle data management and real-time validation.</li>
+                                <li>Implemented key features such as admin dashboard, vaccination records, and appointment tracking to improve system efficiency.</li>
+                            </ul>
+                            <div class="resume-tech-text">
+                                <strong>Tech:</strong> HTML, CSS, JavaScript, PHP, MySQL
+                            </div>
+                            <a href="https://github.com/lakshya0052005/Vaccine-management-system" target="_blank" class="resume-tag" style="margin-top: 5px; width: max-content;">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <span class="resume-category">FULL-STACK WEB APP</span>
+                                    <h3 class="resume-title">Homework Submission & Grading System</h3>
+                                </div>
+                                <span class="resume-date">Nov 2025 - Dec 2025</span>
+                            </div>
+                            <ul class="resume-bullets">
+                                <li>Streamlined digital assignment management using React.js and Node.js, improving workflow efficiency.</li>
+                                <li>Implemented role-based dashboards for students and teachers with secure workflows and progress tracking.</li>
+                                <li>Designed RESTful APIs and backend logic for handling assignments and grading efficiently.</li>
+                            </ul>
+                            <div class="resume-tech-text">
+                                <strong>Tech:</strong> React.js, Node.js, REST APIs
+                            </div>
+                            <a href="https://github.com/lakshya0052005/Grading-System" target="_blank" class="resume-tag" style="margin-top: 5px; width: max-content;">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Extracurricular -->
+                    <div class="resume-tab-content" id="tab-extracurricular">
+                        <div class="resume-item glass-panel">
+                            <div class="content-with-cert">
+                                <div class="content-text">
+                                    <div class="resume-item-header">
+                                        <div>
+                                            <span class="resume-category">SUMMER TRAINING</span>
+                                            <h3 class="resume-title">C Programming Language</h3>
+                                            <p class="resume-subtitle">CSE Path Shala</p>
+                                        </div>
+                                        <span class="resume-date">Jun 2025 - Jul 2025</span>
+                                    </div>
+                                    <ul class="resume-bullets">
+                                        <li>Completed intensive training on core C concepts, gaining hands-on experience compiling and optimizing C programs through practical labs.</li>
+                                    </ul>
+                                </div>
+                                <div class="certificate-container">
+                                    <a href="c-certificate.png" target="_blank" class="cert-link">
+                                        <img src="c-certificate.png" alt="C Programming Certificate" class="cert-img">
+                                        <div class="cert-overlay">
+                                            <i class="fas fa-expand"></i>
+                                            <span>View Certificate</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="content-with-cert">
+                                <div class="content-text">
+                                    <div class="resume-item-header">
+                                        <div>
+                                            <span class="resume-category">TRAINING</span>
+                                            <h3 class="resume-title">Social Networks</h3>
+                                            <p class="resume-subtitle">NPTEL</p>
+                                        </div>
+                                        <span class="resume-date">Nov 2025</span>
+                                    </div>
+                                    <ul class="resume-bullets">
+                                        <li>Mastered social network analysis (graph theory, diffusion models) and analyzed real-world network structures to understand influence propagation.</li>
+                                    </ul>
+                                </div>
+                                <div class="certificate-container">
+                                    <a href="nptel-certificate.png" target="_blank" class="cert-link">
+                                        <img src="nptel-certificate.png" alt="NPTEL Certificate" class="cert-img">
+                                        <div class="cert-overlay">
+                                            <i class="fas fa-expand"></i>
+                                            <span>View Certificate</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <span class="resume-category">ACHIEVEMENT</span>
+                                    <h3 class="resume-title">DSA Problem Solver</h3>
+                                </div>
+                                <span class="resume-date">Jul 2024</span>
+                            </div>
+                            <ul class="resume-bullets">
+                                <li>Solved 100+ DSA problems across platforms like LeetCode and GeeksforGeeks, strengthening algorithmic thinking.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header">
+                                <div>
+                                    <span class="resume-category">ACHIEVEMENT</span>
+                                    <h3 class="resume-title">Top 10% Global Ranking</h3>
+                                    <p class="resume-subtitle">TryHackMe</p>
+                                </div>
+                                <span class="resume-date">Sep 2024</span>
+                            </div>
+                            <ul class="resume-bullets">
+                                <li>Showcased elite practical skills in vulnerability assessment and cybersecurity.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certificates -->
+                    <div class="resume-tab-content" id="tab-certificates">
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header" style="align-items: center;">
+                                <div>
+                                    <span class="resume-category">CONFERENCE</span>
+                                    <div style="display: flex; align-items: center; gap: 15px;">
+                                        <h3 class="resume-title" style="margin-bottom: 0;">Cyber Sec Symposium 2.0</h3>
+                                        <a href="cyber-certificate.png" target="_blank" class="resume-tag" style="text-decoration: none; padding: 4px 12px; font-size: 0.8rem; display: inline-flex;">
+                                            <i class="fas fa-external-link-alt"></i> View
+                                        </a>
+                                    </div>
+                                    <p class="resume-subtitle" style="margin-top: 5px;">Cyber Security Conference</p>
+                                </div>
+                                <span class="resume-date">Feb 2024</span>
+                            </div>
+                        </div>
+                        <div class="resume-item glass-panel">
+                            <div class="resume-item-header" style="align-items: center;">
+                                <div>
+                                    <span class="resume-category">CERTIFICATION</span>
+                                    <div style="display: flex; align-items: center; gap: 15px;">
+                                        <h3 class="resume-title" style="margin-bottom: 0;">Computational Theory: Language Principle & Finite Automata Theory</h3>
+                                        <a href="comp-theory-certificate.png" target="_blank" class="resume-tag" style="text-decoration: none; padding: 4px 12px; font-size: 0.8rem; display: inline-flex;">
+                                            <i class="fas fa-external-link-alt"></i> View
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="resume-date">Jul 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-download-wrapper">
+                    <a href="Finalized_CV.pdf" download class="btn primary-btn"><i class="fas fa-file-pdf"></i> Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get <span class="gradient-text resume-title-underline">In Touch</span></h2>
+            <p class="contact-subtitle">Have a question or want to work together? Fill out the form below or reach out directly through my contact information.</p>
+            
+            <div class="contact-wrapper fade-in-up">
+                
+                <!-- Left Column: Form -->
+                <div class="contact-form-container glass-panel">
+                    <form action="https://formsubmit.co/ajax/girilakshya598@gmail.com" method="POST" class="contact-form">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New message from your Portfolio Site!">
+                        <input type="text" name="_honey" style="display:none"> <!-- Spam protection honeypot -->
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Right Column: Info -->
+                <div class="contact-info-container glass-panel">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    
+                    <ul class="contact-info-list">
+                        <li>
+                            <div class="contact-icon email-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:girilakshya598@gmail.com" class="contact-value">girilakshya598@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon phone-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+917001226487" class="contact-value">+91-7001226487</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon linkedin-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/lakshyagiri057/" target="_blank" class="contact-value">linkedin.com/in/lakshyagiri057</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon github-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">GitHub</span>
+                                <a href="https://github.com/lakshya0052005" target="_blank" class="contact-value">github.com/lakshya0052005</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="contact-prompt">
+                        <p>Feel free to reach out for collaborations, freelance opportunities, or just to say hi. I'm always open to discussing new projects and creative ideas!</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-bottom-banner glass-panel fade-in-up delay-1">
+                <p>Looking forward to hearing from you!</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lakshya Giri. Built with passion & Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
